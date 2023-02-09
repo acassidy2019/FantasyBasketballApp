@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "k7BARalOjuzTGNEWDtI4aBe8EpquH/2aFY2UbJ6R8XJZjB9RsgHRk+EsDLKIA+2o47LtNsBkAfnJJ7nw5Ka2Og==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ninmu\\Documents\\- Whitworth 21-22\\Database\\Final Project Builds\\Scraper\\Scraper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ninmu\\.nuget\\packages\\csvhelper\\27.2.1\\csvhelper.27.2.1.nupkg.sha512",
+    "C:\\Users\\ninmu\\.nuget\\packages\\htmlagilitypack\\1.11.39\\htmlagilitypack.1.11.39.nupkg.sha512"
+  ],
+  "logs": []
+}

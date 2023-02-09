@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="fantasyleague" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=cs1;Initial Catalog=fantasyleague;Persist Security Info=True;User ID=afischer23x" SettingsObjectName="FinalGraph.Properties.Settings" SettingsPropertyName="fantasyleagueConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.[Temp Table of Player Stats]" Member="Temp_Table_of_Player_Stats">
+    <Type Name="Temp_Table_of_Player_Stat">
+      <Column Name="NBA_Stats" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="F2" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="F3" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="F4" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="F5" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="F6" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="F7" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="F8" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="F9" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="F10" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="F11" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="F12" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="F13" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="F14" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="F15" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="F16" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="F17" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="F18" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="F19" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="F20" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="F21" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="F22" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="F23" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="F24" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="F25" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="F26" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="F27" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="F28" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="F29" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Player_Stats" Member="Player_Stats">
+    <Type Name="Player_Stat">
+      <Column Name="PlayerName" Type="System.String" DbType="Char(100)" CanBeNull="true" />
+      <Column Name="Pos" Type="System.String" DbType="Char(5)" CanBeNull="true" />
+      <Column Name="Age" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Team" Type="System.String" DbType="Char(3)" CanBeNull="true" />
+      <Column Name="G" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GS" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MP" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="FG" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="FGA" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="FGP" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="THP" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="THPA" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="THPP" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="TWP" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="TWPA" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="TWPP" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="eFGP" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="FT" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="FTA" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="FTP" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ORB" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="DRB" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="TRB" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="AST" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="STL" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="BLK" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="TOV" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="PF" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="PTS" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
